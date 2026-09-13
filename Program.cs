@@ -4,6 +4,8 @@ using school;
 Console.WriteLine("Hello, World!");
 
 
+// STANDARD METHOD OF INITIALIZING
+
 // Declare a StudentName by using the constructor that has two parameters.
 StudentName student1 = new StudentName("Craig", "Playstead");
 
@@ -16,6 +18,8 @@ StudentName student2 = new StudentName
     FirstName = "Craig",
     LastName = "Playstead"
 };
+
+// INITIALIZING WITH OBJECTS .. {...}
 
 // Declare a StudentName by using an object initializer and sending
 // an argument for only the ID property. No corresponding constructor is
