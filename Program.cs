@@ -9,6 +9,8 @@ Console.WriteLine("Hello, World!");
 // Declare a StudentName by using the constructor that has two parameters.
 StudentName student1 = new StudentName("Craig", "Playstead");
 
+// INITIALIZING WITH OBJECTS .. {...}
+
 // Make the same declaration by using an object initializer and sending
 // arguments for the first and last names. The parameterless constructor is
 // invoked in processing this declaration, not the constructor that has
@@ -18,8 +20,6 @@ StudentName student2 = new StudentName
     FirstName = "Craig",
     LastName = "Playstead"
 };
-
-// INITIALIZING WITH OBJECTS .. {...}
 
 // Declare a StudentName by using an object initializer and sending
 // an argument for only the ID property. No corresponding constructor is
